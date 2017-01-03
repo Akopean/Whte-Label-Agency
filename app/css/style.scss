@@ -1,0 +1,238 @@
+/*============    Настройки    ==========*/
+@import "../scss/mixin/mixin";
+
+/*============    Framework    ==========*/
+@import "../scss/foundation";
+//@import ../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap
+
+/*============    ИИКОНКИ    ==========*/
+@import "../scss/icon/awesome/font-awesome";
+
+/*============    ШРИФТЫ    ==========*/
+@import "../scss/fonts/fonts";
+//@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200)
+
+/*============    HELPER CLASS    ===========*/
+.column, .columns {
+padding-left: 22px;
+padding-right: 22px;
+}
+::-webkit-input-placeholder {color:#ccc;}
+::-moz-placeholder          {color:#ccc;}/* Firefox 19+ */
+:-moz-placeholder           {color:#ccc;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#ccc;}
+.marg-bottom{
+  margin-bottom: 100px;
+}
+.hidden{ visibility: hidden;
+}
+.column+.column:last-child, .column+.columns:last-child, .columns+.column:last-child, .columns+.columns:last-child{
+  float: left;
+}
+
+/*============    ICON    ==========*/
+.fa {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.fa-linkedin{
+    font-size: 16px;
+    padding-left: 2px;
+    color: white;
+    background-color: #007AB9;
+    padding-top: 6px;
+}
+.fa-facebook{
+	background-color: #3A589B;
+	color: white;
+    font-size: 16px;
+    padding-top: 6px;
+}
+.fa-twitter{
+    background-color: #598DCA;
+    font-size: 15px;
+    padding-top: 7px;
+    color: white !important;
+}
+/*============    HEADER    ==========*/
+.header{
+	max-height: 201px;
+	color: $light-blue;
+	}
+.header-head{
+	padding-top: 10px;
+	max-height: 148px;
+}
+.header-info{
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//// SOCIAL ICON ////
+
+	.fa-facebook-official {
+
+		color: #3A589B;
+	}
+	.fa-linkedin-square {
+
+		color: #007AB9;
+	}
+	.fa-twitter {
+
+		color: #598DCA;
+	}
+
+
+/// SLIDE ////
+.slide {
+	min-width: 100%;
+	min-height: 105px;
+	background-image: url(../images/slide.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 56px;
+}
+
+/// BLOG ////
+
+.blog {
+	& .blog-item {
+		position: relative;
+		padding: 30px 0;
+		&:after {
+			content: ' ';
+			position: absolute;
+			width: 96.5%;
+			bottom: 0;
+			left: 17px;
+			border-bottom: 2px solid #CED5E6;
+		}
+		& .blog-item_text {
+			text-align: justify;
+		}
+	}
+	& .blog-image {
+			padding-bottom: 15px;
+		}
+	& h1 {
+		color: $light-blue;
+		font-size: 32px;
+	}
+	@media screen and (max-width: 63.9375em) {
+		h1 {
+		text-align: center;
+		}
+		& .blog-item .blog-item_button{
+			text-align: center;
+		}
+	}
+}
+
+/// FOOTER ///
+
+
+.footer {
+	padding-top: 48px;
+	background-image: url(../images/bg-footer.jpg);
+	color: white;
+	.input-select {
+	background: url(../images/select.png) no-repeat 100% center #FFF;
+		}
+	ul {
+		list-style-type: none;
+		margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    	padding-left: 0;/* Отступ слева в браузере Firefox, Safari, Chrome */
+	}
+	.copyright {
+		margin-top: 30px;
+		padding-bottom: 13px;
+		padding-top: 13px;
+		background-color: #262626;
+	}
+	@media screen and (max-width: 63.9375em) {
+		text-align: center;
+	}
+}
+
+/*============    ШАПКА    ===========*/
+
+/*===========    SECTION PROMO    ===========*/
+
+/*===========    FOOTER    ===========*/
+
+/*============      АДАПТИВ    ===========*/
+
+// Small screens
+@media only screen {
+
+}
+
+/* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+
+}
+
+// Small - Medium screens
+@media only screen and (max-width: 64em) {
+
+}
+
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) {
+
+}
+
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+
+}
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) {}
+
+
+/* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+
+
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) {}
+
+
+/* min-width 1921px, xxlarge screens */
