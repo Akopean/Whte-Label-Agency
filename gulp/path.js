@@ -12,7 +12,8 @@ export default {
     vendor: {
         js: [
         './node_modules/jquery/dist/jquery.js',
-        './bower_components/foundation-sites/dist/js/foundation.min.js',
+        './bower_components/foundation-sites/dist/js/foundation.js',
+        './bower_components/slick-carousel/slick/slick.min.js'
         ]
     },
     all: {
