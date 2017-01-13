@@ -3,3 +3,11 @@
 /dist
 index.psd
 /psd
+README.md
+package.json
+gulpfile.babel.js
+bower.json
+.babelrc
+gulp/*
+app/*
+dist/*
