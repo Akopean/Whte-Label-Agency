@@ -37,3 +37,8 @@ All project path you can find in ```gulp/path.js```. Just add you folder in ```s
 All plugins config with link to npm you can find in ```gulp/config.js```
 
 
+## Pages
+- https://akopean.github.io/Whte-Label-Agency/Blog.html
+- https://akopean.github.io/Whte-Label-Agency/Home.html
+- https://akopean.github.io/Whte-Label-Agency/Contact.html	
+- https://akopean.github.io/Whte-Label-Agency/post.html
