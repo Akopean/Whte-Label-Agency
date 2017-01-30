@@ -6,7 +6,6 @@ import babel from 'rollup-plugin-babel';
  */
 export default {
 
-
     //  https://www.npmjs.com/package/gulp-sass
     sass: {},
 

@@ -48,11 +48,11 @@ $global-font-size: 100%;
 $global-width: rem-calc(1013);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
-  success: #3adb76,
-  warning: #ffae00,
-  alert: #cc4b37,
+  primary: #3A589B,
+  secondary: #e7e7e7,
+  success: #43AC6A,
+  warning: #f08a24,
+  alert: #f04124,
 );
 $primary-color: #3A589B;
 $secondary-color: #e7e7e7;
@@ -101,8 +101,8 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: 40px,
+  medium: 40px,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -147,7 +147,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $white;
+$anchor-color: $dark-gray;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -376,8 +376,8 @@ $form-label-line-height: 1.8;
 $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
-$input-color: #1779BA;
-$input-placeholder-color: #1779BA;
+$input-color: $primary-color;
+$input-placeholder-color: $primary-color;
 $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-bold;
@@ -594,7 +594,7 @@ $thumbnail-radius: $global-radius;
 // 35. Title Bar
 // -------------
 
-$titlebar-background: trasparent;
+$titlebar-background: transparent;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
